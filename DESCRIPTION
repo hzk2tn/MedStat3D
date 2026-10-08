@@ -1,0 +1,21 @@
+Package: MedStat3D
+Title: Statistical Visualisation for Segmented Medical Imaging Data
+Version: 0.0.0.9000
+Authors@R:
+    person(given = "MedStat3D", family = "Team",
+           email = "maintainer@example.org", role = c("aut", "cre"))
+Description: Provides a common interface for validating statistical results
+    indexed to segmented medical-imaging regions and displaying them on
+    organ-specific three-dimensional atlas meshes. Atlas geometry and renderers
+    are deliberately separate from the statistical-data contract so that new
+    organs can be added without changing the user-facing workflow.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Suggests:
+    rgl,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://github.com/MedStat3D/MedStat3D
+BugReports: https://github.com/MedStat3D/MedStat3D/issues
